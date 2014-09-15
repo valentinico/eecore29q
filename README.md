@@ -1,9 +1,17 @@
 eecore29q
 =========
 
-Questionnaire, Expression Engine Core 290
+Questionnaire, Expression Engine Core 290.
 
-Two version of questionnaire:
+Example:
+http://valentinrosciano.com/eecore29/index.php/surveys/survey/1
+
+Admin:
+http://valentinrosciano.com/eecore29/admin.php
+user: blue20
+pw: blue20admin
+
+Two version of questionnaire, the best one is the Version 2:
 
 Version 1:
 ------------------------
