@@ -2,14 +2,14 @@
 	<ul>
 		<?php foreach ($options['checkboxes'] as $key => $checkbox): ?>
 			<li>
-				
+				<label>
 					<?php if ( isset($data['selections'][ $key ]) ): ?>
-						<input checked="checked" type="checkbox" name="vwm_surveys_questions[<?php echo $id; ?>][data][checkboxes][<?php echo $key; ?>][option]" id="<?php echo $key; ?>" value="<?php echo $key; ?>" />
+						<input checked="checked" type="checkbox" name="vwm_surveys_questions[<?php echo $id; ?>][data][checkboxes][<?php echo $key; ?>][option]" value="<?php echo $key; ?>" />
 					<?php else: ?>
-						<input type="checkbox" name="vwm_surveys_questions[<?php echo $id; ?>][data][checkboxes][<?php echo $key; ?>][option]" id="<?php echo $key; ?>" value="<?php echo $key; ?>" />
+						<input type="checkbox" name="vwm_surveys_questions[<?php echo $id; ?>][data][checkboxes][<?php echo $key; ?>][option]" value="<?php echo $key; ?>" />
 					<?php endif; ?>
-					<label for="<?php echo $key; ?>"><span></span><?php echo $checkbox['text']; ?></label>
-					
+					<span><?php echo $checkbox['text']; ?></span>
+				</label>
 				<?php if ($checkbox['type'] == 'other'): ?>
 					<input type="text" name="vwm_surveys_questions[<?php echo $id; ?>][data][checkboxes][<?php echo $key; ?>][other]" value="<?php echo isset($data['selections'][ $key ]['other']) ? legit_encode($data['selections'][ $key ]['other']) : NULL; ?>" maxlength="128" />
 				<?php endif; ?>
@@ -17,3 +17,6 @@
 		<?php endforeach; ?>
 	</ul>
 <?php endif; ?>
+
+<input type="checkbox" id="hh1" name="cc" />
+            <label for="hh1"><span></span>Check Box ura!!</label>

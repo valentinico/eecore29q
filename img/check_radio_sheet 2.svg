@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="76px" height="19px" viewBox="0 0 76 19" enable-background="new 0 0 76 19" xml:space="preserve">
+<g id="Layer_1_1_" display="none">
+	
+		<image display="inline" overflow="visible" enable-background="new    " width="76" height="19" xlink:href="check_radio_sheet.png"  transform="matrix(0.9999 0 0 0.9999 12 41)">
+	</image>
+</g>
+<g id="Layer_4">
+	<circle fill="#FFFFFF" cx="67.076" cy="8.502" r="7.286"/>
+	<circle fill="#FFFFFF" cx="48.119" cy="8.502" r="7.287"/>
+	<rect x="0.714" y="0.715" fill="#FFFFFF" width="15.573" height="15.573"/>
+	<rect x="19.809" y="0.715" fill="#FFFFFF" width="15.573" height="15.573"/>
+</g>
+<g id="Layer_2">
+	<path fill="#C6C6C6" d="M0,0.001v17.001h17.001V0.001H0z M15.187,15.189H1.812V1.814h13.375V15.189z"/>
+	<path fill="#C6C6C6" d="M19.095,0v17.001h17.001V0H19.095z M34.283,15.189H20.908V1.812h13.375V15.189z"/>
+	<path fill="#C6C6C6" d="M48.119,0.312c-4.521,0-8.188,3.666-8.188,8.188s3.666,8.188,8.188,8.188s8.188-3.666,8.188-8.188
+		C56.308,3.979,52.642,0.312,48.119,0.312z M48.119,14.606c-3.37,0-6.104-2.733-6.104-6.104c0-3.372,2.734-6.104,6.104-6.104
+		c3.371,0,6.104,2.731,6.104,6.104C54.226,11.873,51.49,14.606,48.119,14.606z"/>
+	<path fill="#C6C6C6" d="M67.076,0.312c-4.521,0-8.188,3.666-8.188,8.188s3.666,8.188,8.188,8.188c4.522,0,8.188-3.666,8.188-8.188
+		C75.267,3.979,71.601,0.312,67.076,0.312z M67.076,14.606c-3.37,0-6.104-2.733-6.104-6.104c0-3.372,2.73-6.104,6.104-6.104
+		s6.104,2.731,6.104,6.104C73.183,11.873,70.449,14.606,67.076,14.606z"/>
+</g>
+<g id="Layer_3">
+	<circle fill="#C6C6C6" cx="67.029" cy="8.578" r="3.75"/>
+	<polygon fill="#C6C6C6" points="26.458,9.089 23.737,6.369 21.617,8.49 24.337,11.21 26.459,13.33 28.578,11.21 33.511,6.277 
+		31.391,4.156 	"/>
+</g>
+</svg>

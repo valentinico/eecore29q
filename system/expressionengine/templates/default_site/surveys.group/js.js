@@ -28,7 +28,7 @@
 
 <!-- vwm_surveys -->	
 	$(document).ready(function() {
-            $(document).on('click','form.vwm_surveys_survey input[type="submit"]',function(e) {
+            $(document).on('click','form.vwm_surveys_survey button[type="submit"]',function(e) {
                 e.preventDefault();
                 var form = $(this).closest('form');
                 var action = $(form).attr('action');
@@ -48,7 +48,7 @@
                             $(form).load(data.hash_redirect + ' #' + $(form).attr('id') + ' > *');
                         }
                         else {
-                            alert('Survey Completed');
+                            //alert('Survey Completed');
                             window.location = data.redirect;
                         }
                     },

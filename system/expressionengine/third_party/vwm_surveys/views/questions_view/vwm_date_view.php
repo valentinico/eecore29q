@@ -1,1 +1,1 @@
-<input type="text" id="vwm_surveys_question_<?php echo $id; ?>" name="vwm_surveys_questions[<?php echo $id; ?>][data][date]" value="<?php echo isset($data['date']) ? $data['date'] : NULL;?>" />
+<input type="text"  style="width:230px;" class="date" id="vwm_surveys_question_<?php echo $id; ?>" name="vwm_surveys_questions[<?php echo $id; ?>][data][date]" value="<?php echo isset($data['date']) ? $data['date'] : NULL;?>" />

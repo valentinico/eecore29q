@@ -4,17 +4,17 @@
 			<tr>
 				<th>&nbsp;</th>
 				<?php foreach ($options['x'] as $x): ?>
-					<th><?php echo $x['text']; ?></th>
+					<th><?php echo $x['text']."&nbsp&nbsp|&nbsp&nbsp"; ?></th>
 				<?php endforeach; ?>
 			</tr>
 		</thead>
 		<tbody>
 			<?php foreach ($options['y'] as $y_key => $y_value): ?>
 				<tr>
-					<th><?php echo $y_value['text']; ?></th>
+					<th><?php echo $y_value['text']; ?>&nbsp;&nbsp;</th>
 					<?php foreach ($options['x'] as $x_key => $x_value): ?>
 						<td>
-							<input type="radio" name="vwm_surveys_questions[<?php echo $id; ?>][data][radio_matrix][<?php echo $y_key; ?>][option]" value="<?php echo $x_key; ?>" <?php echo ( isset($data['selections'][ $y_key ]) AND $data['selections'][ $y_key ] == $x_key) ? 'checked="checked"' : NULL;?> />
+							<input type="radio" style="display:block; margin-left: 15px;" name="vwm_surveys_questions[<?php echo $id; ?>][data][radio_matrix][<?php echo $y_key; ?>][option]" value="<?php echo $x_key; ?>" <?php echo ( isset($data['selections'][ $y_key ]) AND $data['selections'][ $y_key ] == $x_key) ? 'checked="checked"' : NULL;?> />
 						</td>
 					<?php endforeach; ?>
 				</tr>
@@ -22,3 +22,4 @@
 		</tbody>
 	</table>
 <?php endif; ?>
+
